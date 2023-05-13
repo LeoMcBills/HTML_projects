@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hello world!</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#html">How about html?</a>
+          </li>
+          <li>
+            <a href="#ai">How about ai?</a>
+          </li>
+          <li>
+            <a href="#contact">Contact link</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <hr />
+      <article id="html">
+        <section>
+          <h2>I'm so ready to learn HTML</h2>
+          <img
+            src="img/mac.webp"
+            alt="a macbook pro with code on screen"
+            title="Programming on a mac seems to be a great exprience"
+            width="500"
+            height="500"
+          />
+          <p>This is not really my first web page</p>
+        </section>
+
+        <section>
+          <h3>I'm gonna be the greatest programmer on the globe</h3>
+          <p>
+            There's no need actually, I shall only strive to make the best teams
+            because you can only go far with a wonderful team as an individual
+          </p>
+          <p>Let me tell you something</p>
+
+          <figure>
+            <img
+              src="img/coffee mug.webp"
+              alt="some coffee"
+              title="always take some coffee while programming"
+              width="500"
+              height="700"
+              loading="lazy"
+            />
+            <figcaption>Programming is so addictive</figcaption>
+          </figure>
+          <ol>
+            <li>...this is a great html lecture</li>
+            <li>...I shall also plan for a perfect schedule</li>
+            <li>
+              ...I also use these resources from freecodecamp and
+              <abbr title="Mozilla Developer Network">MDN</abbr>.
+            </li>
+          </ol>
+        </section>
+        <aside>
+          <details>
+            <summary>Guess the number of hours I code per day</summary>
+            <p>
+              I start at <mark>8am</mark> and write code for more than
+              <mark>6 hours</mark> a good day.
+            </p>
+          </details>
+          <details>
+            <summary>Guess the number of hours I code per day</summary>
+            <p>
+              I start at <mark>8am</mark> and write code for more than
+              <mark>6 hours</mark> a good day.
+            </p>
+          </details>
+          <details>
+            <summary>Guess the number of hours I code per day</summary>
+            <p>
+              I start at <mark>8am</mark> and write code for more than
+              <mark>6 hours</mark> a good day.
+            </p>
+          </details>
+        </aside>
+      </article>
+
+      <!-- COMMENT: can't be seen on our page-->
+      <hr />
+      <article id="ai">
+        <section>
+          <h2>I'm planning on learning AI</h2>
+          <ul>
+            <li>
+              <p>
+                I've been reading alot about AI<em>(Artificial Inteligence)</em>
+                and it excites me what developers are capable of
+              </p>
+            </li>
+            <h3>I'm gonna be the greatest programmer on the globe</h3>
+            <li>
+              <p>
+                There's no need actually, I shall only strive to make the
+                <strong>best teams</strong> because you can only go far with a
+                wonderful team as an individual
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>What I should avoid.</h3>
+          <img
+            src="img/two monitors.webp"
+            alt="multiple screens"
+            title="using multiple screens for programming"
+            width="600"
+            height="400"
+            loading="lazy"
+          />
+          <dl>
+            <dt>Talking too much instead of doing more</dt>
+            <dd>I know tha this is a waste of time</dd>
+
+            <dt>Coding less</dt>
+            <dd>
+              I dont think that I wanna continue with that trait for sure.
+            </dd>
+
+            <dt>Poor network</dt>
+            <dd>Probramming is hectic where there's no internet.</dd>
+          </dl>
+        </section>
+      </article>
+      <hr />
+      <article id="contact">
+        <h2>Contact me</h2>
+        <p>I'd really like to hear from you!</p>
+
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+            <p>
+              <label for="firstName">Firstname:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="leo"
+                autocomplete="on"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="lastName">lastname:</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="leo"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="password">password:</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="secret"
+                required
+              />
+            </p>
+            <p>
+              <label for="phone">phone:</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="0787891599"
+                required
+              />
+            </p>
+            <p>
+              <label for="decade">decade:</label>
+              <input
+                type="number"
+                name="decade"
+                id="decade"
+                min="1900"
+                max="2023"
+                step="10"
+                value="1900"
+              />
+            </p>
+            <p>
+              <label for="coffee">Favorite coffee</label>
+              <select name="coffee" id="coffee">
+                <optgroup label="coffees">
+                  <option value="regular coffee">Regular Coffee</option>
+                  <option value="iced coffe">Iced Coffee</option>
+                </optgroup>
+                <optgroup label="special drinks">
+                  <option value="cappuccino" selected>Cappuccino</option>
+                  <option value="cortado">Cortado</option>
+                  <option value="americano">Americano</option>
+                </optgroup>
+                <option value="other">Other</option>
+              </select>
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>What is your favorite food?</legend>
+            <p>
+              <input type="radio" name="food" id="tacos" />
+              <label for="tacos">Tacos</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="pizza" />
+              <label for="pizza">Pizza</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="otherFood" />
+              <label for="othersFood">Others</label>
+            </p>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>Do you have pets?</legend>
+            <p>
+              <input type="checkbox" name="pets" id="dog" value="dog">
+              <label for="dog">Dog</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" id="cat" value="cat">
+              <label for="cat">Cat</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+              <label for="otherPet">Others</label>
+            </p>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>Send Me A Note</legend>
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+          </fieldset>
+          <br>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </article>
+    </main>
+
+    <footer>
+      <hr />
+      <p>&lt;&lt;&lt;&copy; <a href="about.html">LeoMcBills</a> &gt;&gt;&gt;</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>
