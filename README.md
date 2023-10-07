@@ -1,7 +1,7 @@
   # HTML_projects
 
 Bricks-and-Sand.
-    build websites ground up. Inspired by how a frame of a building is put up and that's ofcourse the fundamental role of HTML.
+    Build websites ground up. Inspired by how a frame of a building is put up and that's ofcourse the fundamental role of HTML.
     In this project, I shall be using HTML to come up with basic structures of various websites as I wait for the time I shall actually learn this in ALX.
     Meanwhile, the project is open-sourced under an MIT License and I welcome any contributors to it. Happy contributing.
 
