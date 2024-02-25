@@ -1,4 +1,4 @@
-  # HTML_projects
+# HTML_projects
 
 # Bricks-and-Sand  
 Build websites from ground up. Inspired by how a frame of a building is put up and that's ofcourse the fundamental role of HTML.
